@@ -1,0 +1,97 @@
+/* Module.scss */
+
+nav[role="navigation"] ul {
+    background-color: $color;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 8px 5px 8px;
+}
+
+nav[role="navigation"] ul li {
+    display: inline;
+    margin: 0 4px;
+}
+
+nav[role="navigation"] a {
+    color: #fff;
+    font-size: 18px;
+    transition: color 300ms linear;
+    &:hover {
+        color: darken(#fff,30%);
+        transition: color 300ms linear;
+    }
+}
+
+main[role="main"] {
+    box-sizing: border-box;
+    padding: 0 10px;
+    @media screen and (min-width: 1024px) {
+        padding: 0;
+    }
+}
+
+.place-mark {
+//path.place-mark
+    fill: $logo-color;
+}
+
+.cafe h1, .food h1, .attractions h1 {
+    font-size: em(70px);
+}
+
+.cafe-location  h1, .food-location h1, .attractions-location h1,
+.cafe-location  h2, .food-location h2, .attractions-location h2 {
+    font-size: em(44px);
+}
+
+abbr[title="Maryland"] {
+    border-bottom: none;
+}
+
+.street-address:before {
+    content: "a. ";
+    @include headline-font;
+}
+
+.tel {
+    display: block;
+    &:before {
+        content: "a. ";
+        @include headline-font;
+    }
+}
+
+footer[role="contentinfo"] {
+    background-color: $color;
+    color: #fff;
+    font-size: 18px;
+    padding: 9px;
+}
+
+footer[role="contentinfo"] h2 {
+    margin: 0;
+}
+
+footer[role="contentinfo"] ul+ h2 {
+    margin-top: em(22px);
+}
+
+footer[role="contentinfo"] ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer[role="contentinfo"] ul li {
+    display: inline-block;
+    margin: 0 4px 0 0;
+    padding: 0;
+}
+
+footer[role="contentinfo"] a {
+    color: #fff;
+    transition: color 300ms linear;
+    &:hover {
+        
+    }
+}
