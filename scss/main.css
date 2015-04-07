@@ -439,9 +439,9 @@ header[role="banner"], main[role="main"] {
 
   footer[role="contentinfo"] {
     float: left; } }
-.cafe-location, .food-location, .attractions-location {
+.berthas, .barcocinas, .theblackolive, .kooperstavern {
   margin-bottom: 3.40909em; }
-  .cafe-location:last-of-type, .food-location:last-of-type, .attractions-location:last-of-type {
+.berthas-location:last-of-type, .barcocinas:last-of-type, .theblackolive:last-of-type, .kooperstavern:last-of-type {
     margin-bottom: 6.81818em; }
 
 /* Module.scss */
@@ -473,11 +473,11 @@ main[role="main"] {
 .place-mark {
   fill: #6e6e6e; }
 
-.cafe h1, .food h1, .attractions h1 {
+.berthas h1, .barcocinas h1, .theblackolive h1, .kooperstavern h1 {
   font-size: 3.18182em; }
 
-.cafe-location h1, .food-location h1, .attractions-location h1,
-.cafe-location h2, .food-location h2, .attractions-location h2 {
+.berthas h1, .barcocinas h1, .theblackolive h1, .kooperstavern h1,
+.berthas h2, .barcocinas h2, .theblackolive h2, .kooperstavern h2 {
   font-size: 2em; }
 
 abbr[title="Maryland"] {
